@@ -1,0 +1,70 @@
+/* خلفية داكنة وتصميم متناسق */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e3e3e3;
+}
+
+.header-title span {
+    color: #4CAF50;
+    animation: colorChange 3s infinite;
+}
+
+/* تدرج ألوان متغير */
+@keyframes colorChange {
+    0% { color: #4CAF50; }
+    50% { color: #1E88E5; }
+    100% { color: #4CAF50; }
+}
+
+.info {
+    padding: 30px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    background-color: #2b2b2b;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* زر الواتساب */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.whatsapp-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #25D366;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.whatsapp-link:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
